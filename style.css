@@ -1,8 +1,6 @@
 :root {
     --header-h: 72px;
-    /* navbar height */
     --sidebar-w: 260px;
-    /* used later */
     --bg: #121212;
     --elev: #282727;
     --text: #ffffff;
@@ -27,9 +25,13 @@ body {
 body::-webkit-scrollbar {
     display: none;  
 }
+
+
+
+
+/* topbar */
 .topbar {
     position: fixed;
-    /* stays on screen; never scrolls */
     top: 0;
     left: 0;
     right: 0;
@@ -151,6 +153,9 @@ body::-webkit-scrollbar {
     opacity: 0.8;
 }
 
+
+
+
 /* sidebar */
 .sidebar {
     position: fixed;
@@ -196,7 +201,6 @@ body::-webkit-scrollbar {
     gap: 0.8rem;
 }
 
-
 #sidebar-div {
     overflow-y: auto;
     padding-right: 4px;
@@ -208,7 +212,6 @@ body::-webkit-scrollbar {
     border-bottom: 2px solid var(--elev);
 
 }
-
 
 .sidebar-subdiv {
     height: 190px;
@@ -262,9 +265,10 @@ body::-webkit-scrollbar {
     width: 8px;
 }
 
+
+
+
 /* main content */
-
-
 
 .page {
     padding-top: var(--header-h);
@@ -358,6 +362,8 @@ body::-webkit-scrollbar {
     font-weight: 600;
 }
 
+
+
 /* footer */
 
 footer {
@@ -430,7 +436,6 @@ footer {
   background-color: #8a8a8a; 
   color: var(--text);
 }
-
 
 .footer-bottom {
   border-top: 2px solid var(--elev);
